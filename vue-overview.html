@@ -8,14 +8,29 @@
 </head>
 <body>
     <h1>Vue Overview</h1>
+    <h2>What is vue</h2>
+    <ul>
+        <li>
+            Vue is a JavaScript framework for building user interfaces.
+        </li>
+        <li>Vue builds on top of standard HTML, CSS and javascript and provides a declarive and component-based programming model that helps you efficently develop user interfaces be they simple or complex</li>
+    </ul>
     <h2>Single-File Components (SF)</h2>
     <ul>
         <li>
             An SFC is a reusable self-contained block of code that encapulates HTML, CSS and JavaScript that belong together in a .vue file
         </li>
-        <li>The core featur of Vue is decarative rendering</li>
+        <li>The core feature of Vue is decarative rendering</li>
         <li>We us a template syntax that extends HTML, we can describe how the HTML should look like base on JavaScript state</li>
         <li>When the state changes the HTML updates automatically </li>
+        <li>State that can trigger updates when changed are considered reactive.</li>
+        <li>In Vue the reactice state is held in components</li>
+        <li>We can decare reactive state using the data components option</li>
+        <li>Which should be a function that returns an object</li>
+        <li>The message property will be made available in the template</li>
+        <li>This is how we render dynamic text based on the value of the message using the mustaches syntax</li>
+        <li>The content inside the moustaches is not limted to just identifiers or paths we  can also use valid javascript expressions</li>
+        <li>Now try to create a data property yourself, and use it as the text content for the h1 in the template</li>
     </ul>
     
 </body>
